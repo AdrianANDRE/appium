@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JpetStore</name>
+    </assembly>
+    <members>
+        <member name="T:JpetStore.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:JpetStore.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the JpetStoreRepository repository.
+            </summary>
+        </member>
+        <member name="M:JpetStore.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:JpetStore.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JpetStore.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JpetStore.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JpetStore.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:JpetStore.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepository">
+            <summary>
+            The class representing the JpetStoreRepository element repository.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the JpetStoreRepository element repository.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepository.JPetStoreDemoMozillaFirefox">
+            <summary>
+            The JPetStoreDemoMozillaFirefox folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepository.Parametres">
+            <summary>
+            The Parametres folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoMozillaFirefoxAppFolder">
+            <summary>
+            The JPetStoreDemoMozillaFirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoMozillaFirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new JPetStoreDemoMozillaFirefox  folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoMozillaFirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoMozillaFirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoMozillaFirefoxAppFolder.RowRow">
+            <summary>
+            The RowRow folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoMozillaFirefoxAppFolder.JPetStoreDemo">
+            <summary>
+            The JPetStoreDemo folder.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders.RowRowFolder">
+            <summary>
+            The RowRowFolder folder.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RowRow  folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.FISW01">
+            <summary>
+            The FISW01 item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.FISW01Info">
+            <summary>
+            The FISW01 item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.Cell">
+            <summary>
+            The Cell item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.CellInfo">
+            <summary>
+            The Cell item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.Text2">
+            <summary>
+            The Text2 item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.RowRowFolder.Text2Info">
+            <summary>
+            The Text2 item info.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder">
+            <summary>
+            The JPetStoreDemoFolder folder.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new JPetStoreDemo  folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Cell1">
+            <summary>
+            The Cell1 item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Cell1Info">
+            <summary>
+            The Cell1 item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Graphic">
+            <summary>
+            The Graphic item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.GraphicInfo">
+            <summary>
+            The Graphic item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.None">
+            <summary>
+            The None item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.NoneInfo">
+            <summary>
+            The None item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.SignOut">
+            <summary>
+            The SignOut item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.JPetStoreDemoFolder.SignOutInfo">
+            <summary>
+            The SignOut item info.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders.ParametresAppFolder">
+            <summary>
+            The ParametresAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepositoryFolders.ParametresAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Parametres  folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ParametresAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ParametresAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:JpetStore.JpetStoreRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JpetStore.JpetStoreRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ExplorerAppFolder.List1">
+            <summary>
+            The List1 item.
+            </summary>
+        </member>
+        <member name="P:JpetStore.JpetStoreRepositoryFolders.ExplorerAppFolder.List1Info">
+            <summary>
+            The List1 item info.
+            </summary>
+        </member>
+        <member name="T:JpetStore.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:JpetStore.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the JpetStoreRepository repository.
+            </summary>
+        </member>
+        <member name="M:JpetStore.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:JpetStore.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JpetStore.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JpetStore.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JpetStore.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:JpetStore.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:JpetStore.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:JpetStore.Recording1.repo">
+            <summary>
+            Holds an instance of the JpetStoreRepository repository.
+            </summary>
+        </member>
+        <member name="M:JpetStore.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:JpetStore.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:JpetStore.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:JpetStore.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:JpetStore.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:JpetStore.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

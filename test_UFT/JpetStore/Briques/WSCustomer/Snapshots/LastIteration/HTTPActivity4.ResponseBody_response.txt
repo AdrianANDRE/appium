@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+<customers>
+<customer id="1" xlink:href="http://localhost:8080/api/customers/1"/>
+<customer id="2" xlink:href="http://localhost:8080/api/customers/2"/>
+<customer id="3" xlink:href="http://localhost:8080/api/customers/3"/>
+<customer id="4" xlink:href="http://localhost:8080/api/customers/4"/>
+<customer id="5" xlink:href="http://localhost:8080/api/customers/5"/>
+<customer id="6" xlink:href="http://localhost:8080/api/customers/6"/>
+<customer id="7" xlink:href="http://localhost:8080/api/customers/7"/>
+<customer id="8" xlink:href="http://localhost:8080/api/customers/8"/>
+<customer id="9" xlink:href="http://localhost:8080/api/customers/9"/>
+<customer id="10" xlink:href="http://localhost:8080/api/customers/10"/>
+<customer id="11" xlink:href="http://localhost:8080/api/customers/11"/>
+<customer id="12" xlink:href="http://localhost:8080/api/customers/12"/>
+<customer id="13" xlink:href="http://localhost:8080/api/customers/13"/>
+<customer id="14" xlink:href="http://localhost:8080/api/customers/14"/>
+<customer id="15" xlink:href="http://localhost:8080/api/customers/15"/>
+<customer id="16" xlink:href="http://localhost:8080/api/customers/16"/>
+<customer id="17" xlink:href="http://localhost:8080/api/customers/17"/>
+<customer id="18" xlink:href="http://localhost:8080/api/customers/18"/>
+<customer id="19" xlink:href="http://localhost:8080/api/customers/19"/>
+</customers>
+</prestashop>

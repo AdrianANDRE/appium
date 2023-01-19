@@ -1,0 +1,202 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Compléments non activés</Name>
+    <Description>Les compléments suivants sont associés à votre test, mais n’ont pas été chargés : 
+jQueryUI.</Description>
+    <StartTime>2022-08-23 16:39:12</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>JPetStore</Name>
+    <ErrorText>Impossible d’identifier l’objet "JPetStore" (de classe Browser).
+Vérifiez que ces propriétés d’objet correspondent à un objet affiché dans l’application.</ErrorText>
+    <Description>Impossible&amp;nbsp;d’identifier&amp;nbsp;l’objet&amp;nbsp;"JPetStore"&amp;nbsp;(de&amp;nbsp;classe&amp;nbsp;Browser).&lt;br/&gt;Vérifiez&amp;nbsp;que&amp;nbsp;ces&amp;nbsp;propriétés&amp;nbsp;d’objet&amp;nbsp;correspondent&amp;nbsp;à&amp;nbsp;un&amp;nbsp;objet&amp;nbsp;affiché&amp;nbsp;dans&amp;nbsp;l’application.&lt;br/&gt;&lt;br/&gt;Description physique de l’objet :&lt;br&gt;Mercury Class = Browser&lt;br&gt;CreationTime = 18&lt;br&gt;|Title = JPetStore Demo&lt;br&gt;openurl = https://petstore.octoperf.com/actions/Account.action?signonForm=&lt;br&gt;opentitle = JPetStore Demo&lt;br&gt;Opened By Testing Tool = 0&lt;br&gt;number of tabs = 20&lt;br&gt;Name = JPetStore Demo&lt;br&gt;</Description>
+    <StartTime>2022-08-23 16:39:51</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\robot\test_UFT\JpetStore\Ressources\Library.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VerifVisibiliteElement]]></FunctionName>
+          <Scripts><![CDATA[visibilite = Element.GetROProperty("visible")]]></Scripts>
+          <LineNo><![CDATA[60]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[FuncLibExecutableUnitName]]></ModuleName>
+          <FileName><![CDATA[C:\robot\test_UFT\JpetStore\Ressources\Library.qfl]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[cliquerElement]]></FunctionName>
+          <Scripts><![CDATA[presence = VerifVisibiliteElement(element, "Passant")]]></Scripts>
+          <LineNo><![CDATA[5]]></LineNo>
+        </StackFrame>
+        <StackFrame>
+          <ModuleName><![CDATA[PageCatégorie]]></ModuleName>
+          <FileName><![CDATA[PageCatégorie]]></FileName>
+          <Language><![CDATA[VBScript global code]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[cliquerElement pageProduit.Link("FI-SW-01")]]></Scripts>
+          <LineNo><![CDATA[7]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Impossible&nbsp;d’identifier&nbsp;l’objet&nbsp;"JPetStore"&nbsp;(de&nbsp;classe&nbsp;Browser).<br/>Vérifiez&nbsp;que&nbsp;ces&nbsp;propriétés&nbsp;d’objet&nbsp;correspondent&nbsp;à&nbsp;un&nbsp;objet&nbsp;affiché&nbsp;dans&nbsp;l’application.]]></OperationData>
+      </TestObject>
+      <IconKey>dd87e8347e354c75873a8d3b3fd1fd98</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Erreur d’exécution</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\350d29d3-fc47-4b20-9655-2d82a1e1ada4.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2022-08-23 16:40:47</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>8ad5b7ffe6684096b90afa6cac6bbec7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Produit</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-23 16:39:51</StartTime>
+    <Duration>56</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Produit]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>c8c6cab859ef4f99a1e07a65c11f2228</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-23 16:39:51</StartTime>
+    <Duration>56</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>dd87e8347e354c75873a8d3b3fd1fd98</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>PageCatégorie</Name>
+    <Description />
+    <StartTime>2022-08-23 16:39:30</StartTime>
+    <Duration>77</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="Message" value="Squash est awesome!" type="System.String" />
+      <Parameter name="Quantite" value="0" type="System.Double" />
+    </InputParameters>
+    <Extension>
+      <IconKey>3c0261b5d29d4b76b6cdef15c5f32ea7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-08-23 16:39:12</StartTime>
+    <Duration>95</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>697d3fb600da4be49cba922eef93af49</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SelectionArticle</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-08-23 16:39:02</StartTime>
+    <Duration>105</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>a185205e566d43fd89e09c2ff71c10dd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>français (France)</Locale>
+      <User>NX-DOMAIN\jgrisel</User>
+      <CpuInfo>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</CpuInfo>
+      <NumberOfCores>16</NumberOfCores>
+      <TotalMemory>32432</TotalMemory>
+      <HostName>nx-domain.lan\NXQLX302</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2022-08-23 16:39:02</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,2102 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files\Google\Chrome\Application\chrome.exe",1</Name>
+    <StartTime>2022-08-24 10:42:58</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>7e4a28cca3ff44c28a884605815df320</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"JPetStore"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (20 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (20 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=JPetStore Demo&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=0&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=20&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-08-24 10:43:02</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>20</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Account.action?signonForm=]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[False]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[20]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (20 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (20 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=JPetStore Demo<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=0<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=20<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>32490f3c80dc4058b26d31c27a6392c8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:02</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément image_JpetStore a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:02</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page accueil</Name>
+    <Description>La page d'accueil s'est affichée.</Description>
+    <StartTime>2022-08-24 10:43:02</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Affichage [Connexion]</Name>
+    <Description />
+    <StartTime>2022-08-24 10:42:58</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="Browser" value="chrome" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>6462514d45d946d684da281919e347d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"JPetStore"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (20 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (20 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=JPetStore Demo&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=0&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=20&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>20</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Account.action?signonForm=]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[False]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[20]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (20 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (20 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=JPetStore Demo<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=0<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=20<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>32490f3c80dc4058b26d31c27a6392c8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Sign In a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Sign In.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Accueil]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Sign In]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Sign In]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Sign In]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d4b825d8f4a34b8b97a4cdfed2d39c5f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Accueil</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Accueil]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:05</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément text_login a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page login</Name>
+    <Description>La page login s'est affichée.</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément username a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>username.Set</Name>
+    <Description>"j2ee"</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[LogIn]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[username]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["j2ee"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[username]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7a412a167ad5455cb49b1ed5e68ca935</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>LogIn</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[LogIn]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>saisirElement</Name>
+    <Description>La chaîne 'j2ee' a été saisie.</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément password a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>password.Set</Name>
+    <Description>"j2ee"</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[LogIn]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[password]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["j2ee"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[password]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7a412a167ad5455cb49b1ed5e68ca935</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>LogIn</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[LogIn]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>saisirElement</Name>
+    <Description>La chaîne 'j2ee' a été saisie.</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Login a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Login.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[LogIn]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Login]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[submit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Login]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>47ceaea7917a4f4d84f6f4c9a9922853</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>LogIn</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[LogIn]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Sign Out a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page accueil</Name>
+    <Description>Je suis bien connecté</Description>
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ConnexionClient [Connexion]</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:02</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="Username" value="j2ee" type="System.String" />
+      <Parameter name="Password" value="j2ee" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>6462514d45d946d684da281919e347d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"JPetStore"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (20 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (20 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=JPetStore Demo&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=0&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=20&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>20</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Account.action?signonForm=]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[False]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[20]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (20 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (20 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=JPetStore Demo<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=0<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=20<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>32490f3c80dc4058b26d31c27a6392c8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément fish_icon a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>fish_icon.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Accueil]]></Name>
+          </Object>
+          <Object>
+            <Type>Image</Type>
+            <Name><![CDATA[fish_icon]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[src]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/images/fish_icon.gif]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;img src="../images/fish_icon.gif"&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[image type]]></Name>
+            <Value><![CDATA[Image Link]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[IMG]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&amp;categoryId=FISH]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[css]]></Name>
+            <Value><![CDATA[div#SidebarContent &gt; a:nth-child(1) &gt; img]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>8f44c8f84eef40b587047fa3b1c09b27</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Accueil</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Accueil]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:09</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Fish a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:10</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page Fish</Name>
+    <Description>La page produit Fish s'est affichée.</Description>
+    <StartTime>2022-08-24 10:43:10</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>PageAccueil [SelectionArticle]</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:06</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="taille" value="" type="System.String" />
+      <Parameter name="couleur" value="" type="System.String" />
+      <Parameter name="quantite" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>6462514d45d946d684da281919e347d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"JPetStore"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (20 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (20 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=JPetStore Demo&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=0&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=20&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>20</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Account.action?signonForm=]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[False]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[20]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (20 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (20 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=JPetStore Demo<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=0<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=20<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>32490f3c80dc4058b26d31c27a6392c8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément FI-SW-01 a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>FI-SW-01.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Produit]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[FI-SW-01]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[FI-SW-01]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/actions/Catalog.action?viewProduct=&amp;amp;productId=FI-SW-01"&gt;FI-SW-01&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d4b825d8f4a34b8b97a4cdfed2d39c5f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Produit</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Produit]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:13</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Angelfish a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page AngelFish</Name>
+    <Description>La page produit AngelFish s'est affichée.</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Add to Cart a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Add to Cart.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[AngelFish]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[Add to Cart]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[Add to Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outertext]]></Name>
+            <Value><![CDATA[Add to Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;a href="/actions/Cart.action?addItemToCart=&amp;amp;workingItemId=EST-1" class="Button"&gt;Add to Cart&lt;/a&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Add to Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Add to Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[innerhtml]]></Name>
+            <Value><![CDATA[Add to Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[href]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Cart.action?addItemToCart=&amp;workingItemId=EST-1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>d4b825d8f4a34b8b97a4cdfed2d39c5f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>AngelFish</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[AngelFish]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Shopping Cart a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page Shopping Cart</Name>
+    <Description>La page Shopping Cart s'est affichée.</Description>
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>PageCatégorie [SelectionArticle]</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:10</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <InputParameters>
+      <Parameter name="Message" value="Squash est awesome!" type="System.String" />
+      <Parameter name="Quantite" value="0" type="System.Double" />
+    </InputParameters>
+    <Extension>
+      <IconKey>6462514d45d946d684da281919e347d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"JPetStore"- Identification intelligente</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;Le mécanisme d’identification intelligente a été appelé.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Motif : objet non unique (20 objets détectés)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Description d’origine :&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=Browser&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Autre description de l’identification intelligente : &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre de base (20 objets détectés)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=Browser&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Propriétés du filtre facultatif&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=JPetStore Demo&lt;SPAN class=passed&gt; (Utilisé&lt;/SPAN&gt;, 1 correspondances)&lt;/SPAN&gt;&lt;br&gt;title=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;opentitle=JPetStore Demo&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;openedbytestingtool=0&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;number of tabs=20&lt;SPAN class=warning&gt; (Ignoré)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[Browser]]></Value>
+          </Property>
+          <BasicMatch>20</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[title]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openurl]]></Name>
+            <Value><![CDATA[https://petstore.octoperf.com/actions/Account.action?signonForm=]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[opentitle]]></Name>
+            <Value><![CDATA[JPetStore Demo]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[openedbytestingtool]]></Name>
+            <Value><![CDATA[False]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[number of tabs]]></Name>
+            <Value><![CDATA[20]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">Le mécanisme d’identification intelligente a été appelé.</span></P><P><SPAN class=text>Motif : objet non unique (20 objets détectés)</SPAN></P>           <SPAN class=text><b>Description d’origine :</b></SPAN><br>micclass=Browser<br><P><FONT face=Verdana size=2><SPAN class=text><B>Autre description de l’identification intelligente : </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Propriétés du filtre de base (20 objets détectés)&nbsp;</FONT></u><br>
+micclass=Browser<br><br><FONT face=Verdana size=2><u>Propriétés du filtre facultatif</FONT></u><br>
+name=JPetStore Demo<SPAN class=passed> (Utilisé</SPAN>, 1 correspondances)</SPAN><br>title=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openurl=https://petstore.octoperf.com/actions/Account.action?signonForm=<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>opentitle=JPetStore Demo<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>openedbytestingtool=0<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>number of tabs=20<SPAN class=warning> (Ignoré)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+      </TestObject>
+      <IconKey>32490f3c80dc4058b26d31c27a6392c8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément EST-1 a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>EST-1.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[ShoppingCart]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[EST-1]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//input[@name="EST-1"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[EST-1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7a412a167ad5455cb49b1ed5e68ca935</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ShoppingCart</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[ShoppingCart]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément EST-1 a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>EST-1.Set</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[ShoppingCart]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[EST-1]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[xpath]]></Name>
+            <Value><![CDATA[//input[@name="EST-1"]]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[EST-1]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7a412a167ad5455cb49b1ed5e68ca935</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ShoppingCart</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[ShoppingCart]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>saisirElement</Name>
+    <Description>La chaîne '2' a été saisie.</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Verif visibilité Elément</Name>
+    <Description>L'élément Update Cart a été trouvé</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Update Cart.Click</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[ShoppingCart]]></Name>
+          </Object>
+          <Object>
+            <Type>WebButton</Type>
+            <Name><![CDATA[Update Cart]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[value]]></Name>
+            <Value><![CDATA[Update Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[submit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[outerhtml]]></Name>
+            <Value><![CDATA[&lt;input name="updateCartQuantities" type="submit" value="Update Cart"&gt;]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[Update Cart]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>47ceaea7917a4f4d84f6f4c9a9922853</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ShoppingCart</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[ShoppingCart]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>37e18c6118934f97a6208a6102e80e1f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>C:\robot\test_UFT\JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>851b69b69e5c452fa944ae3d441c2acc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>CliquerElement</Name>
+    <Description>L'élément a été cliqué.</Description>
+    <StartTime>2022-08-24 10:43:17</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>9e8e524f97184c51bf95925e0e21a2b1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Erreur d’exécution</Name>
+    <ErrorText>Type incompatible: 'CDbl'</ErrorText>
+    <Description>Type incompatible: 'CDbl'&lt;BR/&gt;Ligne (22) : &amp;quot;TCd= CDbl(TC)&amp;quot;. </Description>
+    <StartTime>2022-08-24 10:43:18</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[VBScript - script block]]></ModuleName>
+          <FileName><![CDATA[PageCart [SelectionArticle]]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[TCd= CDbl(TC)]]></Scripts>
+          <LineNo><![CDATA[22]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>5424392f30fa4f6e90b30e8e470b43cb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e11d1b63-506b-45f8-a6f8-4a1ced2b0e3f.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2022-08-24 10:51:35</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>c3a75b893a154ae3b6d726242eaa96bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>PageCart [SelectionArticle]</Name>
+    <Description />
+    <StartTime>2022-08-24 10:43:14</StartTime>
+    <Duration>501</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="Quantity" value="2" type="System.Double" />
+    </InputParameters>
+    <Extension>
+      <IconKey>6462514d45d946d684da281919e347d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2022-08-24 10:51:35</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>c3a75b893a154ae3b6d726242eaa96bc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action principale</Name>
+    <Description />
+    <StartTime>2022-08-24 10:42:58</StartTime>
+    <Duration>517</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6462514d45d946d684da281919e347d5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-08-24 10:42:57</StartTime>
+    <Duration>518</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>0af4707ec12f4a51ab9d07edc6c23c24</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2022-08-24 10:51:35</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>c4f860b9b472433585eca7a99cc0fd0c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JpetStore</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-08-24 10:42:44</StartTime>
+    <Duration>531</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f6598a69e1fa494eb98f0206922f93f9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>français (France)</Locale>
+      <User>NX-DOMAIN\jgrisel</User>
+      <CpuInfo>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</CpuInfo>
+      <NumberOfCores>16</NumberOfCores>
+      <TotalMemory>32432</TotalMemory>
+      <HostName>nx-domain.lan\NXQLX302</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res38</ResultName>
+    <RunStartTime>2022-08-24 10:42:44</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

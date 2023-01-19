@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/UltimateQA/junit_ultimateqa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/junit_jpetstore" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/junit_multimodule" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/junit_rpa_challenge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/junit_rpa_challenge_properties" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/junit_same_cucumber_jpetstore" vcs="Git" />
+  </component>
+</project>

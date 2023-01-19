@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>df7eb11d-e028-4c8a-95b4-12e1942efb98</ID>
+  <Name>APicustomers</Name>
+  <Type>REST</Type>
+  <Version>1</Version>
+  <CreationDate>2022-06-16T13:41:02.4744352+02:00</CreationDate>
+  <UpdateDate>2022-06-16T13:41:02.4744352+02:00</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>ba97ffcc-8800-41e9-aa0f-bf041f8764ab.xml</MetaDataSignatureFile>
+  <TestResourceId>ba97ffcc-8800-41e9-aa0f-bf041f8764ab</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.RestDesignTime.RestServicesV2</SignatureCodonId>
+  <SignatureAddinVersion>2021.1.0.184</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\mmalecot\Documents\UFT One\Briques\WSCustomer\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\mmalecot\Documents\UFT One\Briques\WSCustomer\EmbeddedResources\APicustomers</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>2021.1.0.184</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

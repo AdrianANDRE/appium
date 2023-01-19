@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files\Google\Chrome\Application\chrome.exe",1</Name>
+    <StartTime>2022-08-20 08:12:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>9d7359f1fc5541d197883af03abc8466</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Erreur d’exécution</Name>
+    <ErrorText>L’objet image_JpetStore "" est introuvable dans le référentiel d’objets.
+Vérifiez le référentiel d’objets pour confirmer l’existence de l’objet ou rechercher le nom exact de l’objet.</ErrorText>
+    <Description>L’objet image_JpetStore &amp;quot;&amp;quot; est introuvable dans le référentiel d’objets.&lt;BR/&gt;Vérifiez le référentiel d’objets pour confirmer l’existence de l’objet ou rechercher le nom exact de l’objet.&lt;BR/&gt;Ligne (25) : &amp;quot;etat = VerifVisibiliteElement(pageAccueil.Webelement(&amp;quot;image_JpetStore&amp;quot;), &amp;quot;Passant&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2022-08-20 08:12:54</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Affichage [Connexion]]]></ModuleName>
+          <FileName><![CDATA[Affichage [Connexion]]]></FileName>
+          <Language><![CDATA[Affichage [Connexion]]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[etat = VerifVisibiliteElement(pageAccueil.Webelement("image_JpetStore"), "Passant")]]></Scripts>
+          <LineNo><![CDATA[25]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Accueil]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[L’objet image_JpetStore &quot;&quot; est introuvable dans le référentiel d’objets.<BR/>Vérifiez le référentiel d’objets pour confirmer l’existence de l’objet ou rechercher le nom exact de l’objet.<BR/>Ligne (25) : &quot;etat = VerifVisibiliteElement(pageAccueil.Webelement(&quot;image_JpetStore&quot;), &quot;Passant&quot;)&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>21acbe6775464058a40dee2635d228a5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\732409a3-768b-4c24-a9bd-eb9b3541b5d5.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2022-08-20 08:13:04</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>5fe5124edaa149b2b4f095ed03e648de</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Accueil</Name>
+    <Description>Page</Description>
+    <StartTime>2022-08-20 08:12:54</StartTime>
+    <Duration>10</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Accueil]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>e988ff959cde43aca5e98113ca8461ce</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JPetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-20 08:12:54</StartTime>
+    <Duration>10</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JPetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>7fc0ada6ca2b4b3990302f85068ee68b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Affichage [Connexion]</Name>
+    <Description />
+    <StartTime>2022-08-20 08:12:47</StartTime>
+    <Duration>17</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="Browser" value="chrome" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>8c409a5f6c2947f198c077b04e515b49</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Arrêter l’exécution</Name>
+    <Description>Exécution arrêtée par l’utilisateur.</Description>
+    <StartTime>2022-08-20 08:13:04</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>5fe5124edaa149b2b4f095ed03e648de</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action principale</Name>
+    <Description />
+    <StartTime>2022-08-20 08:12:46</StartTime>
+    <Duration>18</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>8c409a5f6c2947f198c077b04e515b49</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-08-20 08:12:46</StartTime>
+    <Duration>18</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>57eac16d1ecf4e49b43cdbe235fde25b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JpetStore</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-08-20 08:12:44</StartTime>
+    <Duration>20</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2ff3558fc2374d9b8c307da71414eb73</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>français (France)</Locale>
+      <User>NX-DOMAIN\jgrisel</User>
+      <CpuInfo>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</CpuInfo>
+      <NumberOfCores>16</NumberOfCores>
+      <TotalMemory>32432</TotalMemory>
+      <HostName>nx-domain.lan\NXQLX302</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res8</ResultName>
+    <RunStartTime>2022-08-20 08:12:44</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,18 @@
+_JAVA_OPTIONS
+
+-Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\UFT One\bin\java_shared\classes\jasmine.jar"
+
+_classload_hook
+
+jvmhook
+
+
+IBM_JAVA_OPTIONS
+
+-Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\UFT One\bin\java_shared\classes\jasmine.jar"
+
+
+JAVA_TOOL_OPTIONS
+
+-agentlib:jvmhook
+

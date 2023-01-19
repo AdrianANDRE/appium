@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="676ca370-7fb3-4680-9fa9-866229963e05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/src/test/java/org/projet_selenium/Selecttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/src/test/java/org/projet_selenium/Selecttest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/src/test/java/org/projet_selenium/premierTest_selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/src/test/java/org/projet_selenium/premierTest_selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/BandeauMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/BandeauMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageAccueil.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageAccueil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageListCategorie.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageListCategorie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageListProduit.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageListProduit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageMyAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageMyAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageResultatRecherche.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageResultatRecherche.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/JPETSTORE/PageShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/classes/org/projet_selenium/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/classes/org/projet_selenium/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/JDDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/JDDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/Selecttest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/Selecttest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/deuxiemeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/deuxiemeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/explicitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/explicitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/fluentWaitTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/fluentWaitTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/fluentWaitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/fluentWaitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/pageObjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/pageObjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/premierTest_selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/premierTest_selenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/tableauTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_jpetstore/target/test-classes/org/projet_selenium/tableauTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/META-INF/maven/fr.eql.autom8/selenium_challenge/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/META-INF/maven/fr.eql.autom8/selenium_challenge/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/fr/eql/autom8/selenium_challenge/dto/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/fr/eql/autom8/selenium_challenge/dto/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/fr/eql/autom8/selenium_challenge/pageObject/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/classes/fr/eql/autom8/selenium_challenge/pageObject/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/selenium_challenge-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/surefire-reports/2022-03-31T11-17-42_366.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/surefire-reports/TEST-fr.eql.autom8.selenium_challenge.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/surefire-reports/TEST-fr.eql.autom8.selenium_challenge.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/surefire-reports/fr.eql.autom8.selenium_challenge.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/surefire-reports/fr.eql.autom8.selenium_challenge.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_rpa_challenge/target/test-classes/fr/eql/autom8/selenium_challenge/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_rpa_challenge/target/test-classes/fr/eql/autom8/selenium_challenge/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_same_cucumber_jpetstore/target/test-classes/JpetstoreJava/JpetstoreSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/junit_same_cucumber_jpetstore/target/test-classes/JpetstoreJava/JpetstoreSteps.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/UltimateQA/junit_ultimateqa" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2K5CI3qmcAcAJO0yFyyG7MXGULe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="676ca370-7fb3-4680-9fa9-866229963e05" name="Changes" comment="" />
+      <created>1673254974849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673254974849</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,666 @@
+﻿
+Function cliquerElement(element)
+	Dim presence
+	
+	presence = VerifVisibiliteElement(element, "Passant")
+	
+	If presence = "OK" Then
+		element.click
+		Reporter.ReportEvent micPass, "CliquerElement", "L'élément a été cliqué."
+	End If
+End Function
+
+
+Function saisirElement(element, texteAsaisir)
+	Dim presence
+	
+	presence = VerifVisibiliteElement(element, "Passant")
+	
+	If presence = "OK" Then
+		element.Set texteAsaisir
+		Reporter.ReportEvent micPass, "saisirElement", "La chaîne '" & texteAsaisir & "' a été saisie."
+	End If
+End Function
+
+Function effacerElement(element)
+	Dim presence
+	
+	presence = VerifVisibiliteElement(element, "Passant")
+	
+	If presence = "OK" Then
+		element.clear
+		Reporter.ReportEvent micPass, "effacerElement", "La chaîne a été effacé."
+	End If
+End Function
+
+Function selectionnerElementListe(element, elementASelectionner)
+	Dim presence
+	
+	presence = VerifVisibiliteElement(element, "Passant")
+	
+	If presence = "OK" Then
+		element.Select elementASelectionner
+		Reporter.ReportEvent micPass, "selectionnerElementListe", "Le libellé '" & elementASelectionner & "' a été sélectionné."
+	End If
+End Function
+
+Function VerifVisibiliteElement(element, etat)
+		'Variables locales
+	Dim visibilite
+	visibilite = False
+	Dim seuil
+	seuil = 10
+	Dim nomElement
+	
+	'sLogicalName = oPageCollection(0).gettoproperty("Logical Name")
+	
+	nomElement = Element.GetTOProperty("TestObjName")
+
+	'Boucle de vérification
+	For c = 0 to seuil
+		visibilite = Element.GetROProperty("visible")
+		Select Case Etat
+			Case "Passant"
+				If visibilite = True Then Exit For
+			Case "NonPassant"
+				wait 1
+				If visibilite = False Then Exit For
+		End Select	
+	Next
+	
+	'Reporting
+	Select Case Etat
+		Case "Passant"
+			Select Case visibilite
+				Case True
+					Reporter.ReportEvent micPass, "Verif visibilité Elément", "L'élément " & nomElement & " a été trouvé"
+					VerifVisibiliteElement = "OK"
+				Case False
+					Reporter.ReportEvent micWarning, "Verif visibilité Elément", "L'élément " & nomElement & " n'a pas été trouvé: Le test est en échec: KO"
+					VerifVisibiliteElement = "KO"
+			End Select
+		Case "NonPassant"
+			Select Case visibilite
+				Case False
+					Reporter.ReportEvent micPass, "Verif visibilité Elément", "L'élément " & nomElement & " n'a pas été trouvé, comme attendu"
+					VerifVisibiliteElement = "OK"
+				Case True
+					Reporter.ReportEvent micWarning, "Verif visibilité Elément", "L'élément " & nomElement & " a été trouvé, contrairement à l'attendu"
+					VerifVisibiliteElement = "KO"
+			End Select
+	End Select
+End Function
+
+'###########################WS########################
+Function APIEnvoiRetour(url, sEnv, auth_string, listeValeurs)
+	Dim Req 
+	Dim Resp 
+	Dim listeTags
+	'Dim listeValeurs
+	Dim valeurs
+
+	Set Req = CreateObject("MSXML2.XMLHTTP")
+	Set Resp = CreateObject("MSXML2.DOMDocument.6.0")
+	
+	Reporter.ReportEvent micDone, "URL", "URL utilisée: " & url
+	Reporter.ReportEvent micDone, "Requête", "Requête envoyée: " & sEnv
+	
+	'Req.Open "POST", url, False
+	Req.Open "GET", url, False, auth_string
+	
+	'Req.setRequestHeader "Content-Type", "text/xml" 	
+	Req.setRequestHeader "Authorization", "Basic " & auth_string
+	'Req.send(sEnv)
+	Req.send
+	
+	
+	'Resp.loadXML Req.responseText
+	reponse = Req.responseText
+	
+	Msgbox reponse
+	
+	
+	reporter.ReportEvent micDone, "Reponse Text", Req.responseText
+	
+	If Instr(Req.responseText, "<env:Fault>") <> 0 Then
+		faultstring = Resp.getElementsByTagName("faultstring")(0).Text
+		reporter.ReportEvent micFail, "Problème API", "Il y a une erreur dans le message retour de l'API, message: " & faultstring
+	End If
+	
+	Print Req.responseText
+	
+	listeTags = Split(liste_tags, ";")
+	
+	ReDim listeValeurs(UBound(listeTags))
+	
+	For i = 0 To UBound(listeTags)
+		If Resp.getElementsByTagName(listeTags(i)).length = 0 Then
+			listeValeurs(i) = "VIDE"
+		Else
+			listeValeurs(i) = Resp.getElementsByTagName(listeTags(i))(0).Text
+		End If
+	Next
+	
+	For i = 0 To UBound(listeValeurs)
+		If i = 0 Then
+			valeurs = listeValeurs(0)
+		Else
+			valeurs = valeurs & ";" & listeValeurs(i)
+		End If
+	Next
+
+	APIEnvoiRetour = valeurs
+	
+End Function
+
+'#################Manipulation fichiers######################
+Function creation_fichier_DMASS(Nbre_Jours)
+	   Const ForReading = 1, ForWriting = 2, ForAppending = 8
+	   Set fso = CreateObject("Scripting.FileSystemObject")
+	   monrep = DataTable("Chemin_Execution",dtGlobalSheet)
+	   nomfichier = DataTable("NomFichier",dtGlobalSheet)
+	   Set f = fso.OpenTextFile(monrep &"\"&nomfichier,ForWriting, True)
+	   newDate = ReverseDate(Dateadd("d",Nbre_Jours,Date))
+	   ligne = Replace(DataTable("Ligne_DMASS"),"AAAAMMJJ",newDate)
+	   f.WriteLine ligne
+	   f.Close
+End Function
+
+Function nb_fichiers_ds_dossier(folderspec)
+    Dim fso, f, f1, fc, s,cpt
+		cpt=0
+   Set fso = CreateObject("Scripting.FileSystemObject")
+   Set f = fso.GetFolder(folderspec)
+   Set fc = f.Files
+   For Each f1 in fc
+      's = s & f1.name 
+      's = s &chr(13)
+	  cpt = cpt +1
+   Next
+   nb_fichiers_ds_dossier = cpt
+End Function
+
+Function ReverseDate(MyDate)
+	TabDate = Split(MyDate,"/")
+	ReverseDate = TabDate(2) & TabDate(1) &TabDate(0)
+End Function
+
+Function dezip_fichier(fichier_zip, dossier)
+
+	s_var = Replace(fichier_zip, "+", "{+}")
+    
+    ReDim ligne(3)
+
+	ligne(1) = """C:\Program Files\7-Zip\7z.exe"" e """ & s_var & """ -o""" & dossier & """" & " -y"
+	
+	CreationBatch ligne
+	 
+End Function
+
+Function zip_fichier(nom_fichier_zip,nom_fichier_csv)
+	
+	ReDim ligne(3)
+
+	ligne(2) = """C:\Program Files\7-Zip\7z.exe"" u """&nom_fichier_zip&""" -tzip """&nom_fichier_csv&""""&" -y"
+
+	CreationBatch ligne
+	
+End Function
+
+'##################BDD####################
+Function db_connect( byRef curSession ,connection_string)
+    dim connection
+    on error Resume next
+    ' Opening connection
+    set connection = CreateObject("ADODB.Connection")
+    If Err.Number <> 0 then
+        db_connect= "Error # " & CStr(Err.Number) & " " & Err.Description
+        err.clear
+        Exit Function
+    End If 
+    connection.Open connection_string
+    If Err.Number <> 0 then
+        db_connect= "Error # " & CStr(Err.Number) & " " & Err.Description
+        err.clear
+        Exit Function
+    End If
+    set curSession=connection
+    db_connect=0
+End Function
+
+'#############################Comparaison de fichiers#################################
+Function File2Compare(File1,File2,File3)
+
+	Const ForReading = 1, ForWriting = 2 
+	Dim objFSO,objSourceFile,objSourceFile2
+	Dim bFileNotFound
+	bFileNotFound = False
+	Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+	If Not objFSO.FileExists(File1) Then
+		 Reporter.ReportEvent micFail,"Comparaison de fichiers","Le Fichier à vérifier n'existe pas : " & File1 
+        bFileNotFound = True
+	ElseIf Not objFSO.FileExists(File2) Then
+		 Reporter.ReportEvent micFail,"Comparaison de fichiers","Le Fichier de référence n'existe pas : " & File2
+		bFileNotFound = True
+	End If
+
+	If Not bFileNotFound Then
+		Set objSourceFile = objFSO.OpenTextFile(File1, ForReading)  'Fichier Obtenu
+		Set objSourceFile2 = objFSO.OpenTextFile(File2, ForReading) 'Fichier ref 
+		 vrNumLigne = 0
+		 'Ajout d'une vérification sur le texte entier
+		 'Do Until objSourceFile.AtEndOfStream Or objSourceFile2.AtEndOfStream
+		 '		 vrText = vrText + Replace(Replace(Trim(objSourceFile.ReadLine), " ", ""), vbCrLf, "")
+		 '		 vrText2 = vrText2 +  Replace(Replace(Trim(objSourceFile2.ReadLine)," ", ""), vbCrLf, "")
+		 'Loop
+		 
+		 vrText = Replace(Replace(Trim(objSourceFile.ReadAll), " ", ""), vbCrLf, "")
+ 		 vrText2 = Replace(Replace(Trim(objSourceFile2.ReadAll)," ", ""), vbCrLf, "")
+		 
+		 vrComprText = StrComp(vrText, vrText2, 1)
+		 
+		 If vrComprText <> 0 Then
+		 		'Fermeture puis réouverture pour revenir au début du fichier
+		 		objSourceFile.Close
+				objSourceFile2.Close
+		 	
+		 		Set objSourceFile = objFSO.OpenTextFile(File1, ForReading)  'Fichier Obtenu
+				Set objSourceFile2 = objFSO.OpenTextFile(File2, ForReading) 'Fichier ref
+				
+			  Do Until objSourceFile.AtEndOfStream Or objSourceFile2.AtEndOfStream
+					 vrNumLigne = vrNumLigne + 1
+					 vrLigne = objSourceFile.ReadLine
+					 vrLigne2 = objSourceFile2.ReadLine
+					 vrComprLign = StrComp(vrLigne, vrLigne2, 1)
+					 If vrComprLign = 1 Or vrComprLign = -1 Or IsNull(vrComprLign) Then
+					   vrNul = "Le fichier n'a pas été modifié"
+					   vrLignDif = vrLignDif & vrNumLigne & ": " & vrLigne & vbCrLf & vrNumLigne & ": " & vrLigne2 & vbCrLf & vbCrLf
+					 End If
+			 Loop
+			 
+		 End If
+		objSourceFile.Close
+		objSourceFile2.Close
+		If IsEmpty(vrNul) Then
+			Reporter.ReportEvent micPass,"Comparaison de fichiers","Le fichier " & File1 & "est identique au fichier de référence " & File2
+			File2Compare=0
+		Else
+			Reporter.ReportEvent micFail,"Comparaison de fichiers","Les fichiers sont différents. Ouvrez le fichier: " & File3
+			File2Compare=1
+			 Dim fso, f 
+			 Set fso = CreateObject("Scripting.FileSystemObject") 
+			 Set f = fso.OpenTextFile(File3, ForWriting,true)
+			 f.WriteLine String(120,"*")
+			f.writeline "Résultat de la Comparaison entre le fichier " & File1 & " et le fichier "& File2 & vbNewLine    
+		    f.WriteLine String(120,"*")         
+			f.writeline(vrLignDif)
+			f.close
+		End If
+	End If
+End Function
+
+Public Function ExcelWorksheetCompare(ByVal sWorkbook1, ByVal sWorksheet1, ByVal sWorkbook2, ByVal sWorksheet2)
+   Dim boolRC, boolSheetExists
+   Dim FSO, XLHandle, oSM, oDesk
+   Dim XLBook1, XLBook2, XLSheet1, XLSheet2
+   Dim Iter, objCell
+
+ 'Verify both files exist
+ Set FSO = CreateObject("Scripting.FileSystemObject")
+ boolRC = FSO.FileExists(sWorkbook1)
+ If Not boolRC Then
+	  Set FSO = Nothing
+	  ExcelWorksheetCompare = FALSE
+	  Reporter.ReportEvent micFail,"Comparaison de fichiers Excel","Le fichier de référence n'existe pas"
+	  Exit Function
+ End If
+ boolRC = FSO.FileExists(sWorkbook2)
+ If Not boolRC Then
+	  Set FSO = Nothing
+	  ExcelWorksheetCompare = FALSE
+	  Reporter.ReportEvent micFail,"Comparaison de fichiers Excel","Le fichier à comparer n'existe pas"
+	  Exit Function
+ End If
+
+ Set FSO = Nothing
+ 'Set WSHShell = CreateObject("WScript.Shell")
+Set oSM = CreateObject("com.sun.star.ServiceManager")
+Set oDesk = oSM.createInstance("com.sun.star.frame.Desktop")
+Dim arg()
+'Set objDocument= oDesk.loadComponentFromURL("private:factory/scalc", "_blank", 0, arg)
+
+   'Set XLHandle =  CreateObject("Excel.Application")
+   'XLHandle.DisplayAlerts = False
+
+   'Open workbook1
+  ' Set XLBook1 = XLHandle.WorkBooks.Open(sWorkbook1)
+  sWorkbook1 = Replace(sWorkbook1, "/", "\")
+Set wb1 = oDesk.loadComponentFromURL("file:///" & sWorkbook1, "_blank", 0, arg)
+'Set oSheet = wb.CurrentController.ActiveSheet
+   'Verify sheet exists (1)
+   If isNumeric(sWorksheet1) Then
+    sWorksheet1 = CInt(sWorksheet1)
+    If (sWorksheet1 >0) AND (sWorksheet1<=wb1.sheets.Count) Then
+	     Set oSheet1 = wb1.getSheets().GetByIndex(sWorksheet1)
+		     boolSheetExists = TRUE
+	    Else
+		     boolSheetExists = FALSE
+	    End If
+   Else
+    	boolSheetExists = FALSE
+	    For Iter = 0 To wb1.sheets.Count - 1
+		     If wb1.getSheets().GetByIndex(Iter).Name = sWorksheet1 Then
+			         Set oSheet1 = wb1.Sheets.GetByName(sWorksheet1)
+			      boolSheetExists = TRUE
+		     End If
+	    Next
+   End If
+
+   If Not boolSheetExists Then
+    wb1.Close(true)
+    'XLHandle.Quit
+    Set wb1 = Nothing
+   ' Set XLHandle = Nothing
+
+  ExcelWorksheetCompare = FALSE
+  Reporter.ReportEvent micFail,"Comparaison de fichiers Excel","La feuille à comparer n'est pas présente dans le fichier de référence"
+  Exit Function
+  End If
+
+   'Open workbook2
+  sWorkbook2 = Replace(sWorkbook2, "/", "\")
+Set wb2 = oDesk.loadComponentFromURL("file:///" & sWorkbook2, "_blank", 0, arg)
+'Set oSheet = wb.CurrentController.ActiveSheet
+   'Verify sheet exists (2)
+   If isNumeric(sWorksheet2) Then
+    sWorksheet2 = CInt(sWorksheet2)
+    If (sWorksheet2 >0) AND (sWorksheet2<=XLBook2.sheets.Count) Then
+      Set oSheet2 = wb2.getSheets().GetByIndex(sWorksheet2)
+     boolSheetExists = TRUE
+    Else
+     boolSheetExists = FALSE
+    End If
+   Else
+    boolSheetExists = FALSE
+    For Iter = 0 To wb2.sheets.Count -1
+     If wb2.getSheets().GetByIndex(Iter).Name = sWorksheet2 Then
+      Set oSheet2 = wb2.Sheets.GetByName(sWorksheet2)
+      boolSheetExists = TRUE
+     End If
+    Next
+   End If
+
+   If Not boolSheetExists Then
+	    wb1.Close(true)
+	    wb2.Close(true)
+	    'XLHandle.Quit
+	    Set oSheet1 = Nothing
+	    Set wb1= Nothing
+	    Set wb2 = Nothing
+	    'Set XLHandle = Nothing
+	
+	    ExcelWorksheetCompare = FALSE
+	 Reporter.ReportEvent micFail,"Comparaison de fichiers Excel","La feuille à comparer n'est pas présente dans le fichier cible"
+    Exit Function
+   End If
+
+   'Mark range
+
+   'Compare and mark mismatches red
+   Echec=False
+'   For Each objCell In XLSheet2.UsedRange
+'       If objCell.Value <> XLSheet1.Range(objCell.Address).Value Then
+'           objCell.Interior.ColorIndex = 3
+'		   If Echec=False Then
+'				Echec=True
+'		   End If
+'       Else
+'           objCell.Interior.ColorIndex = 0
+'       End If
+'   Next
+
+   monCurseur = oSheet1.createCursorByRange(oSheet1.getCellByPosition(0, 0))   'A1
+   monCurseur.GotoEndOfUsedArea(False)   
+   DerniereLigne = monCurseur.RangeAddress.EndRow
+   DerniereColonne = monCurseur.RangeAddress.EndColumn
+'Set oSheet = wb1.CurrentController.ActiveSheet  
+'Dim CellRangeAddress 
+'Set CellRangeAddress = oSM.Bridge_GetStruct("com.sun.star.table.CellRangeAddress")
+'CellRangeAddress.Sheet = 0
+'CellRangeAddress.StartColumn = 0
+'CellRangeAddress.StartRow = 0
+'CellRangeAddress.EndColumn = DerniereColonne
+'CellRangeAddress.EndRow = DerniereLigne
+
+   For ligne =0 to DerniereLigne
+	For colonne = 0 to DerniereColonne
+	       If oSheet1.getCellByPosition(colonne, ligne).String <> oSheet2.getCellByPosition(colonne, ligne).String Then
+	           oSheet2.getCellByPosition(colonne, ligne).CellBackColor = RGB(255,0,0)
+			   If Echec=False Then
+					Echec=True
+			   End If
+	       Else
+	           oSheet2.getCellByPosition(colonne, ligne).CellBackColor  = RGB(0,0,0)
+	       End If
+       Next
+   Next
+
+   wb1.Close(true)
+   
+   wb2.Save
+   wb2.Close(true)
+  
+   'XLHandle.Quit
+
+   Set XLSheet1 = Nothing
+   Set XLSheet2 = Nothing
+   Set XLBook1 = Nothing
+   Set XLBook2 = Nothing
+   Set XLHandle = Nothing
+
+If Echec=True Then
+		ExcelWorksheetCompare = FALSE
+        Reporter.ReportEvent micFail,"Comparaison de fichiers Excel","Des différences avec le fichier de référence ont été trouvées et marquées en rouge. Veuillez consulter le fichier :" & sWorkbook2
+	Else
+		 ExcelWorksheetCompare = TRUE
+		 Reporter.ReportEvent micPass,"Comparaison de fichiers Excel","Le fichier est identique au fichier de référence"
+End If
+
+End Function
+
+'#################FTP/SFTP#####################
+Sub sftp_Action(env,nlogin, port,action, chemin_local, chemin_distant, fichier)
+'............................ Paramètres d'entrées .........................
+'env = Envrionnement (Ex: REC1, REC2)
+'nlogin = Numéro du Login dans Scenario Path (Ex: 1,2)
+'port = Port de la machine distante (Ex: 10122)
+'action = type d'action effectuée sur la machine distante
+'			-Envoi
+'			-Suppression
+'			-Récupération
+'............................................................................
+
+	'Récupération des informations de connexion à partir des paramètres d'entrée env et nlogin
+	Call GetConnexionParameters("FTP_"& Ucase(env) & "_LOGIN"&nlogin)
+
+	ReDim ligne(12)
+	
+	'Mise sur le bureau de l'utilisateur
+	'ligne(1) = "cd C:\Users\" & Environment("UserName") & "\Desktop"
+	ligne(1) = "D:"
+	'Connexion au serveur distant en fonction des paramètres récupérés par la fonction GetConnexionParameters et du pramètre d'entrée "port"
+	'ligne(2) = "psftp -b temp.txt " & Login & "@" & ServerFTP & " -pw " & Password & " -P " & port
+	'ligne(2) = "C:\Users\" & Environment("UserName") & "\Desktop\psftp.exe -b C:\Users\" & Environment("UserName") & "\Desktop\temp.txt " & Login & "@" & ServerFTP & " -pw " & Password & " -P " & port
+'ligne(2) = ""
+	ligne(2) = "psftp.exe -b C:\Users\" & Environment("UserName") & "\Desktop\temp.txt " & Login & "@" & ServerFTP & " -pw " & Password & " -P " & port 'C:\Users\Public\Desktop\
+     'test
+     'ligne(2) = "psftp.exe " & Login & "@" & ServerFTP & " -pw " & Password & " -P " & port 'C:\Users\Public\Desktop\
+	'Sélection des répertoires locaux et distants
+	ligne(3) = "lcd """ & chemin_local & """"
+	ligne(4) =  "cd """ & chemin_distant & """"
+	
+	'Ajout des lignes en fonction de l'action choisie
+	Select Case action
+		Case "Envoi"
+			ligne(5) =  "put """ & fichier & """"
+		Case "EnvoiM"
+			ligne(5) =  "mput """ & fichier & """"
+		Case "Suppression"
+			ligne(5) =  "rm """ & fichier & """"
+		Case "Récupération"
+			ligne(5) =  "get """ & fichier & """"
+		Case "RécupérationM"
+			ligne(5) =  "mget """ & fichier & """"
+		Case "Déplacement"
+			ligne(5) =  "mget """ & fichier & """"
+			ligne(6) =  "rm """ & fichier & """"
+		Case "CopieCOURPREC"
+			ligne(5) =  "mget """ & fichier & """"
+			ligne(6) =  "cd COUR "
+			ligne(7) =  "mput " & """" & fichier & """"
+			ligne(8) =  "cd ../PREC " 
+			ligne(9) =  "mput " & """" & fichier &""""
+			ligne(10) =  "cd .." 
+			ligne(11) =  "rm " & """" & fichier &""""
+		Case "SuppressionCOURPREC"
+			ligne(5) =  "cd COUR "
+			ligne(6) =  "rm """ & fichier & """"
+			ligne(7) =  "cd ../PREC " 
+			ligne(8) =  "rm " & """" & fichier & """"
+			ligne(9) =  "cd .." 
+			ligne(10) =  "mput " & """" & fichier &""""
+	End Select
+	'Debug
+	'ligne(6) = "cmd /k"
+	'Création du batch
+	CreationBatchText ligne
+	
+End Sub
+
+'#################BATCHS################
+'Procédure générique de création de batch
+Sub CreationBatch(ligne())
+
+	'*** Préparation de l'environnement
+	Set fso = CreateObject("Scripting.FileSystemObject")
+	cheminBatch = "C:\Users\" & Environment("UserName") & "\Desktop\"
+	'cheminBatch = "E:\"
+	nomBatch = "temp.bat"
+	cheminBatchComplet = cheminBatch & nomBatch
+	
+	'*** Création du batch
+	Set batch = fso.CreateTextFile(cheminBatchComplet,TRUE)
+		
+	'*** Boucle d'écriture
+	For i = 1 To Ubound(ligne)
+		batch.WriteLine(ligne(i))
+	Next
+		
+	
+
+	'*** Destruction des objets
+	batch.Close
+	Set fso = Nothing
+	
+	'*** Exécution du batch
+	Set WSHShell = CreateObject("WScript.Shell")
+	codeRetour = WSHShell.Run (cheminBatchComplet,0,true)
+	Set WSHShell = Nothing
+	
+	'Gestion d'erreur
+	If codeRetour = 0 Then
+		Reporter.ReportEvent micPass, "Batch", "L'exécution du batch est en succès"
+	Else
+		Reporter.ReportEvent micFail, "Batch", "L'exécution du batch est KO. Le code retour est : " & codeRetour & "."	
+	End If
+	
+End Sub
+
+'Procédure générique de création de batch en passant pas un fichier texte
+Sub CreationBatchText(ligne())
+
+	'*** Préparation de l'environnement
+	Set fso = CreateObject("Scripting.FileSystemObject")
+	cheminBatch = "C:\Users\" & Environment("UserName") & "\Desktop\"
+	nomBatch = "temp.bat"
+	nomTexte = "temp.txt"
+	cheminBatchComplet = cheminBatch & nomBatch
+	cheminTexteComplet = cheminBatch & nomTexte
+	
+	'*** Création du batch et du texte
+	Set texte = fso.CreateTextFile(cheminTexteComplet,TRUE)
+	Set batch = fso.CreateTextFile(cheminBatchComplet,TRUE)	
+
+	'*** Boucle d'écriture
+	batch.WriteLine(ligne(1))
+	batch.WriteLine(ligne(2))
+
+	For i = 3 To Ubound(ligne)
+		texte.WriteLine(ligne(i))
+	Next
+		
+	'*** Destruction des objets
+	batch.Close
+	texte.Close
+	Set fso = Nothing
+	
+	'*** Exécution du batch
+	Dim codeRetour
+	Set WSHShell = CreateObject("WScript.Shell")
+	WSHShell.CurrentDirectory = "D:\"
+	codeRetour = WSHShell.Run (cheminBatchComplet,0,true)
+	Set WSHShell = Nothing
+	
+	'Gestion d'erreur
+	If codeRetour = 0 Then
+		Reporter.ReportEvent micPass, "Batch", "L'exécution du batch est en succès"
+	Else
+		Sauvetage 30, "Batch"	
+	End If
+	
+End Sub
+
+Function CRO_PUTTY_2(env,centre)
+	'Vérification de l'activation de CapsLock et changement si nécessaire
+	Call CheckCapsLock
+	CODE_LOGIN="UNX_"& env & "_LOGIN3"
+	Call GetConnexionParameters(CODE_LOGIN)
+	
+	chemin = "C:\Users\" & Environment("UserName") & "\Desktop"
+	Putty_Launch= chemin & "\" & "Putty-" & Env &".bat"
+	Fichier_TXT= chemin & "\" & "CRO_2" & env & ".txt"
+	'Putty_Launch=DataTable("Chemin_Execution",dtGlobalSheet)&"\"&"Putty_2-" & env &".bat"
+	'Fichier_TXT=DataTable("Chemin_Execution",dtGlobalSheet) & "\" & "CRO_2" & env & ".txt"
+
+	Set fso = CreateObject("Scripting.FileSystemObject")
+	Set script = fso.CreateTextFile(Fichier_TXT, True)
+
+	script.writeline("/appli/omega/omega-ppe-ech-vtom/ppeReceptionnerFichierVirtuel.sh " & centre &" FR-PRE-SAP-R 30 60")
+	script.close
+
+	'Création du .bat 
+	Set fso2 = CreateObject("Scripting.FileSystemObject")
+	Set launch = fso2.CreateTextFile(Putty_Launch, True)
+	Select Case env
+		Case "REC1","REC2"
+			If UCase(Right(Environment("UserName"), 2) ) = "OP"  Then
+				'Infra Virtualisée
+				launch.writeline("Q:\OMEGA\1_Elements_Connexion\Putty\putty.exe -ssh " & Login & "@" & HostUnix & " -pw " & Password & " -m """ & Fichier_TXT & """")
+			Else
+				'Infra physique
+				launch.writeline("\\nova.infra-grdf.com\CO\COMMUN-A\OMEGA\OMEGAREC\00_OMEGA\01_TNR\00_Elements_Connexion\Putty\putty.exe -ssh " & Login & "@" & HostUnix & " -pw " & Password & " -m """ & Fichier_TXT & """")
+			End if
+'		Case "INT1","INT2","INT3","DEV3"
+'				launch.writeline("\\nova.infra-grdf.com\CO\COMMUN-A\OMEGA\CMO-ITG\TNR_AUTO\00_Elements_Connexion\Putty\putty.exe -ssh " & Login & "@" & HostUnix & " -pw " & Password & " -m """ & Fichier_TXT & """")
+	End Select
+	launch.close
+	
+	'Exécution du batch
+	Set WSHShell = CreateObject("WScript.Shell")
+	'WSHShell.Run DataTable("Chemin_Execution",dtGlobalSheet) & "\Putty-" & env &".bat"
+	
+	
+	Set WSHShell = Nothing
+	Reporter.ReportEvent micInfo,"PUTTY","Le Script CRO a été exécuté"
+End Function

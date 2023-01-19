@@ -1,0 +1,48 @@
+nested : 
+
+https://gitlab.com/henixdevelopment/open-source/opentestfactory/orchestrator/-/issues/204
+
+https://gitlab.com/henixdevelopment/open-source/opentestfactory/java-plugins/-/issues/27
+
+ note :  dans nested quand tu veux tester une classe et toutes les classes imbriquées dedans, ta référence de test ressemblera à ça : junit5-annotations/com.baeldung.junit5.nested.TestingAStackDemoTest*
+oublie pas l'astérisque sinon ça exécute que les méthodes qui sont dans la classe TestingAStackDemoTest et pas les classes imbriquées dedans
+
+et si tu veux tester la classe imbriquée WhenNewTest, ça ressemble à ça : 
+junit5-annotations/com.baeldung.junit5.nested.TestingAStackDemoTest$WhenNewTest*
+
+
+pour le repo prendre le mien : https://gitlab.com/jgrisel1/junit5_annotations   ( il y a dans tests une catégorie nested)
+
+
+cucumber : 
+
+https://gitlab.com/henixdevelopment/open-source/opentestfactory/java-plugins/-/issues/34   (tester un repo avec plusieurs tests cucumber)
+
+note :  exemple de test ref : 
+ref vers le .feature : cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature##
+ref avec le nom du feature : cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature#newCucumberStockManagementP#
+ ref avec le nom du scénario : cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature##newCucumberStockManagementP
+ref avec le nom du feature et du scénario :cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature#newCucumberStockManagementP#newCucumberStockManagementP
+
+
+pour le repo prendre le mien : https://gitlab.com/jgrisel1/cucumber_multimodule2     ( 3 tests cucumber)
+
+
+namespace  :
+
+https://gitlab.com/henixdevelopment/open-source/opentestfactory/orchestrator/-/issues/223
+
+note : tester qu'il n'y a plus d'espace entre les namespaces ( à l'affichage) dans le cas où plusieurs namespaces sont déclarés.
+
+
+ticket RC : 
+
+https://gitlab.com/henixdevelopment/open-source/opentestfactory/python-toolkit/-/issues/47
+
+note : vérifier lors de la création de la RC  qu'il n'y a plus l'erreur.
+
+
+task Laurent pour la remontée des rapports avec caractère spécial : 
+
+https://gitlab.com/henixdevelopment/squash/squash-autom-devops/squash-orchestrator/-/issues/14
+

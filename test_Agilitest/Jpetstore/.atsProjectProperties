@@ -1,0 +1,12 @@
+<atsProject>
+  <domain>com.functional</domain>
+  <name>JpetStore</name>
+  <version>0.0.1</version>
+  <description>ATS project created with Agilitest Editor</description>
+  <useMaven>false</useMaven>
+  <autoUpdateAts>true</autoUpdateAts>
+  <useProjectDomain>false</useProjectDomain>
+  <uuid>1CF4A806-FC13-7A14-5FEC-883416189313</uuid>
+  <groups/>
+  <environment/>
+</atsProject>

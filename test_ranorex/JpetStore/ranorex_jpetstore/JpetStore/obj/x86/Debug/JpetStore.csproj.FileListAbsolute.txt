@@ -1,0 +1,10 @@
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\JpetStore.rxtmg
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\JpetStore.rxtst
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\JpetStore.exe.config
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\JpetStore.xml
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\JpetStore.exe
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\JpetStore.pdb
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\obj\x86\Debug\JpetStore.csprojResolveAssemblyReference.cache
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\obj\x86\Debug\JpetStore.exe
+C:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\obj\x86\Debug\JpetStore.pdb

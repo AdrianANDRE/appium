@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Cucumber_JPETSTORE" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Cucumber_PRESTASHOP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber_calculette" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber_casino" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber_katalon" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber_multimodule" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber_multimodule2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cucumber_paie" vcs="Git" />
+  </component>
+</project>

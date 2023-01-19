@@ -1,0 +1,4 @@
+cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature##
+cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature#newCucumberStockManagementP#
+cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature##newCucumberStockManagementP
+cucumber_multimodule/javaparamlib_cucumber#src/test/resources/test01.feature#newCucumberStockManagementP#newCucumberStockManagementP

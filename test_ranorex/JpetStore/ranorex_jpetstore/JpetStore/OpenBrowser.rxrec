@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b0f28bc4-c1c6-488c-a365-1552213851ee"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="JpetStore">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="firefox"
+		clearcache="False"
+		clearcodecache="False"
+		clearcookies="False"
+		clearserviceworker="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://petstore.octoperf.com/actions/Account.action;jsessionid=98C8E7DDD440AC0F5F3C0E26E17C9974?signonForm
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="3ede70b7-db5b-497d-9b47-4bcd68856731"
+	name="JpetStoreRepository"
+	relativepath="JpetStoreRepository.rxrep">
+		<codegen
+		classname="JpetStoreRepository"
+		namespace="JpetStore">
+		</codegen>
+		<rootfolder
+		id="dcc4c6ab-b0c4-48a8-9173-1d14873eeefd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

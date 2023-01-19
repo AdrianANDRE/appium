@@ -1,0 +1,158 @@
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] -------------------------------------------------------
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] Picked up _JAVA_OPTIONS:  -Dfile.encoding=UTF-8
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] Running JpetstoreJava.RunTest
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 5.213 s <<< FAILURE! - in JpetstoreJava.RunTest
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] Se connecter a l'application JpetStore.Je veux me connecter a l'application Jpestore #1  Time elapsed: 4.142 s  <<< ERROR!
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Caused by: org.openqa.selenium.WebDriverException:
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Driver server process died prematurely.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] System info: host: '06880e965db3', ip: '172.18.0.3', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.102.1-microsoft-standard-WSL2', java.version: '11.0.10'
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Driver info: driver.version: FirefoxDriver
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] Se connecter a l'application JpetStore.Je veux me connecter a l'application Jpestore #2  Time elapsed: 0.212 s  <<< ERROR!
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Caused by: org.openqa.selenium.WebDriverException:
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] The driver server has unexpectedly died!
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] System info: host: '06880e965db3', ip: '172.18.0.3', os.name: 'Linux', os.arch: 'amd64', os.version: '5.10.102.1-microsoft-standard-WSL2', java.version: '11.0.10'
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Driver info: driver.version: FirefoxDriver
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: localhost/127.0.0.1:44228
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Caused by: java.net.ConnectException: Connection refused: localhost/127.0.0.1:44228
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:44228
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Caused by: java.net.ConnectException: Connection refused
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] Results:
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] Errors:
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR]   Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR]   Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] Tests run: 2, Failures: 0, Errors: 2, Skipped: 0
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [ERROR] There are test failures.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Please refer to /home/otf/b8a769cf-a71d-4e21-8cbe-6282a685487d/Cucumber_JPETSTORE/target/surefire-reports for the individual test results.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] ------------------------------------------------------------------------
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] BUILD SUCCESS
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] ------------------------------------------------------------------------
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] Total time:  12.924 s
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] Finished at: 2022-06-14T09:36:47Z
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] [INFO] ------------------------------------------------------------------------
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Picked up _JAVA_OPTIONS:  -Dfile.encoding=UTF-8
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] SLF4J: Defaulting to no-operation (NOP) logger implementation
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] /usr/local/bin/geckodriver: error: Found argument '--allow-origins' which wasn't expected, or isn't valid in this context
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] USAGE:
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]     geckodriver --port <PORT> --websocket-port <PORT>
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] For more information try --help
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] /usr/local/bin/geckodriver: error: Found argument '--allow-origins' which wasn't expected, or isn't valid in this context
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] USAGE:
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]     geckodriver --port <PORT> --websocket-port <PORT>
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] For more information try --help
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d]
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] ┌───────────────────────────────────────────────────────────────────────────────────┐
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ Activate publishing with one of the following:                                    │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │                                                                                   │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ JUnit:                                           @CucumberOptions(publish = true) │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │                                                                                   │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │                                                                                   │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ Disable this message with one of the following:                                   │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │                                                                                   │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] │ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] └───────────────────────────────────────────────────────────────────────────────────┘
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] html-report.html
+
+[2022-06-14T09:36:47] [job b8a769cf-a71d-4e21-8cbe-6282a685487d] Releasing execution environment for job 'squashTMJob-0'
+Workflow completed successfully.

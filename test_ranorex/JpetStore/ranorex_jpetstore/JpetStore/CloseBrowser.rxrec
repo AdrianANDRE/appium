@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4ad5af7b-2774-494d-97ab-dd32dd46f593"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="JpetStore">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="41;3"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="57b9006e-4905-44c0-9ee3-2d18d25cb05f"
+		sx="925"
+		sy="177"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b1c2f1df-6eb8-4601-a034-1b2ed1e2bb5c"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="884,174,69,20"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						https://petstore.octoperf.com/actions/Account.action?signoff=
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						click ancestor
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Sign Out
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Linked
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						https://petstore.octoperf.com/actions/Account.action?signoff=
+					</attribute>
+				</element>
+				<path>
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[1]/?/?/container[@accessiblename='JPetStore Demo']//link[@accessiblename='Sign Out']/text[@accessiblename='Sign Out']
+				</path>
+				<robustPath>
+					/form[@title&gt;'JPetStore Demo - Mozilla']//text[@accessiblename='Sign Out']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="596e8693-7c37-48b7-ad3d-a2d8f17ca333">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<closeapprecorditem
+		duration="3976.0592ms"
+		enabled="True"
+		graceperiod="100ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="11f8af70-39ee-4897-838b-3244032d9819">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cfa74eaf-4509-4772-a776-ca0d809a08f3"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title&gt;'JPetStore Demo - Mozilla']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="3ede70b7-db5b-497d-9b47-4bcd68856731"
+	name="JpetStoreRepository"
+	relativepath="JpetStoreRepository.rxrep">
+		<codegen
+		classname="JpetStoreRepository"
+		namespace="JpetStore">
+		</codegen>
+		<rootfolder
+		id="dcc4c6ab-b0c4-48a8-9173-1d14873eeefd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

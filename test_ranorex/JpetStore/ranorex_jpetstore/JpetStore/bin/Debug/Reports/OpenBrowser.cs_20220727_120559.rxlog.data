@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.56s"
+		durationms="3564"
+		type="root"
+		rid="a0571645e5be048"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jgrisel"
+		rxversion="10.2.3.0"
+		host="NXQLX302"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="2400x2430"
+		timestamp="27/07/2022 12:06:01"
+		timestampiso="2022-07-27T10:06:01"
+		endtime="27/07/2022 12:06:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.448"
+			timeRelativeToTestModuleStartTime="00:03.448"
+			timeWallClock="12:06:04"
+			time="00:03.448"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://petstore.octoperf.com/actions/Account.action;jsessionid=98C8E7DDD440AC0F5F3C0E26E17C9974?signonForm' with browser 'firefox' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

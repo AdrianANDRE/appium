@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="JpetStore"
+      id="8b0de605-e92f-4d53-8566-02f2f3c80791"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="JpetStore"
+      id="8b0de605-e92f-4d53-8566-02f2f3c80791"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

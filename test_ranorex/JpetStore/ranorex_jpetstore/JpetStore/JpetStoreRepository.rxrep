@@ -1,0 +1,282 @@
+﻿<repository
+id="3ede70b7-db5b-497d-9b47-4bcd68856731"
+name="JpetStoreRepository">
+	<codegen
+	classname="JpetStoreRepository"
+	namespace="JpetStore">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="dcc4c6ab-b0c4-48a8-9173-1d14873eeefd"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="684d1fde-bf8d-4987-bb98-878394c8049f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="cfa74eaf-4509-4772-a776-ca0d809a08f3"
+		isrooted="True"
+		name="JPetStoreDemoMozillaFirefox"
+		refpath="/form[@title='JPetStore Demo - Mozilla Firefox']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="17ded81d-0942-426a-b501-8539e876100d"
+			isrooted="True"
+			name="RowRow"
+			refpath="/form[@title='JPetStore Demo - Mozilla Firefox']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/element[@accessiblerole='None']/container[@accessiblename='JPetStore Demo']/element[2]/element[2]/element[1]/element[2]/table[@accessiblerole='Table']/row[3]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="28fe4dcd-08d1-49d8-af5a-d01fd6e37c18"
+				name="FISW01"
+				refimgid="ef7324d5-6e82-43f9-8a7b-9d4735e7ba89"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element[2]/table/row[2]/cell[1]/link/text[@accessiblename='FI-SW-01']"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//text[@accessiblename='FI-SW-01']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']//container[@accessiblename='JPetStore Demo']//table[@accessiblerole='Table']/row[2]/?/?/link[@accessiblename='FI-SW-01']/text[@accessiblename='FI-SW-01']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="97568c5d-d414-493d-bf6b-011d4531b06c"
+				name="Cell"
+				refimgid="92fc51dc-b29c-4f01-a2b4-fbdcc7c82a6c"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element[2]/table/row[2]/cell[5]"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//table/row[2]/cell[5]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']//container[@accessiblename='JPetStore Demo']//table[@accessiblerole='Table']/row[2]/cell[5]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="75f039db-4d35-45f9-959c-256043c5ff0b"
+				name="Text2"
+				refimgid="8c3590d2-f082-4860-bae0-fa96ad019e36"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element[2]/element[1]/element[2]/table/row[2]/cell[5]/text[@accessiblerole='Text']"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//table/row[2]/cell[5]/text[@accessiblerole='Text']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']//container[@accessiblename='JPetStore Demo']//table[@accessiblerole='Table']/row[2]/cell[5]/text[@accessiblerole='Text']
+				</item>
+				<basepath>
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']//container[@accessiblename='JPetStore Demo']//table[@accessiblerole='Table']/row[2]
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="95f321ed-f4a7-4e72-94c4-354e3940b93d"
+			isrooted="True"
+			name="JPetStoreDemo"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="8773ae63-9a64-4525-85f7-7177f69e8296"
+				name="Login"
+				refimgid="ba7d9280-f993-4f2f-94cb-9242ae453d4a"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element/element/button[@accessiblename='Login']"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//button[@accessiblename='Login']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']//button[@accessiblename='Login']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="2711b2da-c0e1-4dda-b947-8ac8cf59af25"
+				name="Cell1"
+				refimgid="1f7e491b-99f7-4f7c-9cd6-432f3a1ad61e"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element[2]/element[1]/element[2]/table/row[3]/cell[1]"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//table/row[3]/cell[1]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']//table[@accessiblerole='Table']/row[3]/cell[1]
+				</item>
+				<item
+				addcaps="picture,accessible"
+				capname="picture"
+				id="1f03787b-28d0-4010-aa62-3c907dac56eb"
+				name="Graphic"
+				refimgid="94157068-d2da-48ce-8067-ac4dc9ccc264"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element[2]/element[1]/element/link[1]/picture[@accessiblerole='Graphic']"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//container[@accessiblename='JPetStore Demo']/element[2]/element[2]/element[1]/element[@accessiblerole='None']/link[1]/picture[@accessiblerole='Graphic']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']/element[2]/element[2]/element[1]/element[@accessiblerole='None']/link[1]/picture[@accessiblerole='Graphic']
+				</item>
+				<item
+				addcaps="unknown,accessible"
+				capname="unknown"
+				id="a1d31bb2-26c2-400e-bc23-c9f25b7a33c2"
+				name="None"
+				refimgid="ef8ff90d-cd29-49fe-8f8b-f5adb6401714"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element/element[@accessiblerole='None']"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//container[@accessiblename='JPetStore Demo']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="15599b6b-9b51-4856-aa2f-cf56a8dfbb36"
+				name="Text"
+				refimgid="ea2d9b6f-4f30-4746-bf0c-eb4836610885"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element/element/element[2]/text[2]"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//container[@accessiblename='JPetStore Demo']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/text[2]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/text[2]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="acbd9395-ca26-41ca-b5c7-210f23cc3f41"
+				name="Text1"
+				refimgid="dee26abc-5d1e-47e0-96bd-ac8e5b90542d"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container/element/container/element[2]/element/element/element[2]/text[4]"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']//container[@accessiblename='JPetStore Demo']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/text[4]"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']/element[2]/element[@accessiblerole='None']/element[@accessiblerole='None']/element[2]/text[4]
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="b1c2f1df-6eb8-4601-a034-1b2ed1e2bb5c"
+				name="SignOut"
+				refimgid="8e20adcd-f3d5-4e54-834f-3758e1fdd1ec"
+				refpath="/form[@title>'JPetStore Demo - Mozilla']/container/container[1]/element/container/element[1]/element[2]/element/link[@accessiblename='Sign Out']/text[@accessiblename='Sign Out']"
+				robustPath="/form[@title>'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']"
+				searchtimeout="30000ms">
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']//link[@accessiblename='Sign Out']/text[@accessiblename='Sign Out']
+				</item>
+				<basepath>
+					/form[@title&gt;'JPetStore Demo - Mozilla']/container[@accessiblerole='Grouping']/container[@accessiblerole='PropertyPage']/?/?/container[@accessiblename='JPetStore Demo']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title&gt;'JPetStore Demo - Mozilla']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAO1SURBVDhPjZNrTJtlFMffGZdsCwQdlwEu1gkZ
+wy1sIOUOHe370pK2gAy6CeM2Ebk4lewSXWYIASkmjoU4w7KUDXCZLlHHQEdwTiBsOGBMnDZIGDcn
+hXKRW1te2vf88U3dF+MX/8n5cJ4853fO/8l5mP+j/s6Y02OP5F99/2144NOj/2hTQQGzuayMefZp
+7pREwmzp+U6ab53iBvnpxOnxh7KL774leUkm+/c9Rp/h9vxApXvo8HnvwBLW3TcvxttTJpFsyVR6
++Mz0R3WRibWSWeUQTAmmid7os2UndwcdSwpwFRs+4wSMnPRU8bUeVwSDz5mF2pCKsQvSN0vVB/YP
+Nsm1lm52xm5MIGGCA/2hIJqMNy8aFRef3Feom5ujXJ2A4RKvdqr2WqJan3mqC1xb+Di58U7yNxe6
+Mtr6B0812MfrP4C1Xwt6LAONxovB2YQxZZ99VCVljGl+h23v7Bqn8hcEqtkhkMGbLHUR87+UnJ/r
+TO2x/qgy0r28dkxcPo31B3KQUYQMsUTDSvPGaML7DDKDG6k4YJEqJSCDL+jLnbBf3405gxZDlVW4
+dciINt3PGPpUD75PtPEgVgwW9KvSQsPcTYa0UQOUE2Sjs/4QLr8I4eYurDSH4fHVPHToG9FweAaN
+mim0FbRgsV20cTcS1CFO0svy9EjZy/DRynUhOYwoOwhC6R5Yrwag8XgdKnIHUZ47Db1uFecSZ3El
+qRvmL9Sg9hDQDRHQeZCnnoR+hn9V2ydwsTZ6TQp7TjDM1SH4KL0ehSl9KNIN48ShcZRxv8OguYHZ
+z0QLTVLQtTg4WmU8tSbeZ5Yk2Zfs4Ql/ERsLISUctuPBaMo4hVLNNeSrb6NY1YUKeYv4Dh9ipSIG
+wrkICPWRcHx+0CI0aL5mJl0Lk5b90ybtYRwJ8jiQNhKm1xW4lVqAGmUVquU1uKMphjmLg+NEKKg8
+FI5PIsDruVlrVfJ7jA/js+2hx5EWy57UVYdUCYqOh6CIg0UZj/lEFnNqFtaUGDh0YaBsEfB2GPgi
+bs2Uo7ndqpbtcy5S77Ys5YxXXsuyv25pbb8GdqkKQiQLIVZcGrkMgmjPwcVinZXBGq/mVxW6exNc
++tEOmczFCTC4J7kOuOZqf9t+tHnaN3Nu0U9nW3klhWxBGqyFqGE9oKblvclrC366hZGdR+6OvZyV
+88M+7Y4N8RM6AaI2XWfStl7arN074lJ45olbYfef2/NXpzze2DB5HtuYcs/nTc8V/TThVqQ3bGVD
+OzzTXf4pZpi/AdrSHP+C07LgAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow"
+		capname="form"
+		id="8f72400e-965a-476b-86e0-8469284f7296"
+		isrooted="True"
+		name="Parametres"
+		refimgid="0b11ad56-5f01-4038-b037-ae93d5fbe0e0"
+		refpath="/form[@name='Paramètres']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@name='Paramètres']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAAlFJREFUOE+lk+tLk2EYh/eX9CGipCIyCKLo4HHlzA8SVoR9KogkkKDM
+CKRCCwQtKUjtIJSdrKggqQ+CFZmHHGlzzrU552HqNnWbO7zHXT3bBLXQoG74fXvv63c9z8tj+O9p
+aDFz55WDmuYBqpp+cLnRzJnqTk5UdlNc8YWic60Ulr6koOTJshw8/RjjkXIMdc9tNLVrNLZp3GqV
+qX4dofJZkIpHs5Q3+Tl710fJ7UlO1o5zvNrN0SoXh644yS8zsyZtB4baZjN1bwLcfBvm4oMpTt1w
+U3zdybFrDg5ftVNYYaPg0iCmcisHLgxgLLOQe95CRmk369KNGGoaXuAPxAhHNeZFQhGVYFghIDIb
+SsUbUPDMyLi9Mg6PhHVMosvqYePW7QJQ38JqE4+DokJEijMX0ZkKaoz6VSwuLxs2b8Nw/+n7hU//
+HE0HSYkzH9OZmdeYnNNw+xR+Tir0DP0FoItmWSwnm8M606J5TDQ7pxSs4zKd1tUACW1NLMtxglEd
+X0hjYlbD5VWwTSj0j8h8tgjAphUAi+pxZsRySl3FLtQtozK9wxLtfSsAkupqQl1PqQdS6o6kusJ3
+l0yXQ6LNnACkLwckb1yDqDh3YKn6dEq9zy3R45TosMX40PsbQOyiLqiHhLo/eesqIwl1z6L6V3uM
+T9Yo73q8rE8A7i0xEOVI4p+HYggATMyByxdnyKPRP6rxbVilw67wcVBOAtambRFvof4hufvzyTGa
+yBbJEskUycg1sS/HxN7sPPaI7M7KY1dmKjszUsnJL2LhTf7rGAy/AP7X5rYY5FLEAAAAAElFTkSu
+QmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="desktop,nativewindow"
+		capname="desktop"
+		id="f5fbcfb0-a628-41a2-9d9d-7bf2d8ff2e65"
+		isrooted="True"
+		name="Explorer"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="7a542399-de30-4df0-8055-fd7a95550c7d"
+			name="List1"
+			refimgid="2ca5555b-4e23-42ba-be3f-b6f13617f7fb"
+			refpath="/desktop[@processname='explorer']/container/list[@automationid='1']"
+			robustPath="/desktop[@processname='explorer']/?/?/list[@automationid='1']"
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@automationid='1']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

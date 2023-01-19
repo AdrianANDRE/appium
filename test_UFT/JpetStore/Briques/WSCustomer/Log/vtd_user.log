@@ -1,0 +1,17 @@
+2022-06-23 09:32:31,392 [1] INFO  - Loaded appender: FileAppenderExternal
+2022-06-23 09:32:31,564 [1] INFO  - Loaded appender: UserLoggerAppender
+2022-06-23 09:32:31,564 [1] INFO  - Loaded appender: FileAppenderInternal
+2022-06-23 09:32:31,564 [1] INFO  - Loaded appender: FileAppenderExternal
+2022-06-23 09:32:31,564 [1] INFO  - Loaded appender: UserLoggerAppender
+2022-06-23 09:32:31,564 [1] INFO  - Loaded appender: FileAppenderInternal
+2022-06-23 09:32:33,946 [16] INFO  - Étape 'Début' : L’étape 'Début' a démarré
+2022-06-23 09:32:34,040 [16] INFO  - L’étape 'Début' est terminée
+2022-06-23 09:32:34,040 [16] INFO  - Étape 'Flux du test' : L’étape 'Flux du test' a démarré
+2022-06-23 09:32:34,040 [16] INFO  - Étape 'Itération 1' : L’étape 'Itération 1' a démarré
+2022-06-23 09:32:34,056 [16] INFO  - Étape 'Demande HTTP4' : L’étape 'Demande HTTP4' a démarré
+2022-06-23 09:32:34,244 [16] INFO  - Étape 'Demande HTTP4' : Récupération de l’URL HTTP : 'http://localhost:8080/api/customers'
+2022-06-23 09:32:38,427 [16] ERROR - Étape 'Demande HTTP4' : Erreur dans l’activité HTTP. URL : 'http://localhost:8080/api/customers' : Impossible de se connecter au serveur distant
+2022-06-23 09:32:38,427 [16] ERROR - Étape 'Demande HTTP4' : Impossible de se connecter au serveur distant
+2022-06-23 09:32:38,427 [16] ERROR - L’étape 'Demande HTTP4' est terminée
+2022-06-23 09:32:38,443 [16] INFO  - L’étape 'Itération 1' est terminée
+2022-06-23 09:32:38,443 [16] INFO  - L’étape 'Flux du test' est terminée

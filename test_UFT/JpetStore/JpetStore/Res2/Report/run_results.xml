@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>Erreur d’exécution</Name>
+    <ErrorText>L’objet JpetStore "" est introuvable dans le référentiel d’objets.
+Vérifiez le référentiel d’objets pour confirmer l’existence de l’objet ou rechercher le nom exact de l’objet.</ErrorText>
+    <Description>L’objet JpetStore &amp;quot;&amp;quot; est introuvable dans le référentiel d’objets.&lt;BR/&gt;Vérifiez le référentiel d’objets pour confirmer l’existence de l’objet ou rechercher le nom exact de l’objet.&lt;BR/&gt;Ligne (5) : &amp;quot;Set pageAccueil = Browser(&amp;quot;JpetStore&amp;quot;).Page(&amp;quot;JpetStore&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2022-08-19 17:33:51</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Affichage [Connexion]]]></ModuleName>
+          <FileName><![CDATA[Affichage [Connexion]]]></FileName>
+          <Language><![CDATA[Affichage [Connexion]]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[Set pageAccueil = Browser("JpetStore").Page("JpetStore")]]></Scripts>
+          <LineNo><![CDATA[5]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JpetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[L’objet JpetStore &quot;&quot; est introuvable dans le référentiel d’objets.<BR/>Vérifiez le référentiel d’objets pour confirmer l’existence de l’objet ou rechercher le nom exact de l’objet.<BR/>Ligne (5) : &quot;Set pageAccueil = Browser(&quot;JpetStore&quot;).Page(&quot;JpetStore&quot;)&quot;. ]]></OperationData>
+      </TestObject>
+      <IconKey>1c64ff03c0fd40ebbd1eed729de6638f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\2b52b302-f421-4aa4-91ff-5a6da1b31441.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JpetStore</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-08-19 17:33:51</StartTime>
+    <Duration>169</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>JpetStore\Ressources\Repository.tsr</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[JpetStore]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>5b4a415835f0432181c7eabe81a97fe0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Navigateur</Name>
+    <Description>Le navigateur  n'est pas configuré.</Description>
+    <StartTime>2022-08-19 17:36:40</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>c90a98c8d86b43559fc104dae700211b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "",1</Name>
+    <StartTime>2022-08-19 17:36:47</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>c1387bda380241b0899126ff62deaf4c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Erreur d’exécution</Name>
+    <ErrorText>Objet requis: ''</ErrorText>
+    <Description>Objet requis: ''&lt;BR/&gt;Ligne (25) : &amp;quot;etat = VerifVisibiliteElement(pageAccueil.WebList(&amp;quot;Conteneur carrousel&amp;quot;), &amp;quot;Passant&amp;quot;)&amp;quot;. </Description>
+    <StartTime>2022-08-19 17:36:47</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Affichage [Connexion]]]></ModuleName>
+          <FileName><![CDATA[Affichage [Connexion]]]></FileName>
+          <Language><![CDATA[Affichage [Connexion]]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[etat = VerifVisibiliteElement(pageAccueil.WebList("Conteneur carrousel"), "Passant")]]></Scripts>
+          <LineNo><![CDATA[25]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>1c64ff03c0fd40ebbd1eed729de6638f</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\52a34aa9-2db9-4089-bccb-d89ffa5576db.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Affichage page accueil</Name>
+    <Description>La page d'accueil ne s'est pasaffichée.</Description>
+    <StartTime>2022-08-19 17:37:06</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>c90a98c8d86b43559fc104dae700211b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Affichage [Connexion]</Name>
+    <Description />
+    <StartTime>2022-08-19 17:33:51</StartTime>
+    <Duration>195</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="Browser" value="" type="System.String" />
+    </InputParameters>
+    <Extension>
+      <IconKey>bb6e45e636d949149d47db59f958c364</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action principale</Name>
+    <Description />
+    <StartTime>2022-08-19 17:33:50</StartTime>
+    <Duration>196</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>bb6e45e636d949149d47db59f958c364</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-08-19 17:33:50</StartTime>
+    <Duration>196</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>de8b34f3dc14442fb8e9d95181de03cb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>JpetStore</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-08-19 17:33:49</StartTime>
+    <Duration>197</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>ff0d029ef7f24ea09cc725b5c9ac1948</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>français (France)</Locale>
+      <User>NX-DOMAIN\jgrisel</User>
+      <CpuInfo>11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz</CpuInfo>
+      <NumberOfCores>16</NumberOfCores>
+      <TotalMemory>32432</TotalMemory>
+      <HostName>nx-domain.lan\NXQLX302</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2022-08-19 17:33:49</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

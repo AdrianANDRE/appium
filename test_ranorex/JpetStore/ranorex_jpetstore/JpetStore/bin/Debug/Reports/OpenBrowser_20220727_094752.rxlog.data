@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="3.41s"
+		durationms="3413"
+		type="root"
+		rid="6b7d6b4568e5f3a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jgrisel"
+		rxversion="10.2.3.0"
+		host="NXQLX302"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="fr-FR"
+		dtnlanguage="fr-FR"
+		screenresolution="2400x2430"
+		timestamp="27/07/2022 09:47:53"
+		timestampiso="2022-07-27T07:47:53"
+		endtime="27/07/2022 09:47:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.227"
+			timeRelativeToTestModuleStartTime="00:03.227"
+			timeWallClock="09:47:56"
+			time="00:03.227"
+			level="Warn"
+			category="General">
+			<message>
+				Your DPI settings are limiting object recognition. Set the scaling of all connected monitors to 100 %.<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.310"
+			timeRelativeToTestModuleStartTime="00:03.310"
+			timeWallClock="09:47:56"
+			time="00:03.310"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'https://petstore.octoperf.com/actions/Account.action;jsessionid=98C8E7DDD440AC0F5F3C0E26E17C9974?signonForm' with browser 'firefox' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\jgrisel\Documents\Ranorex\RanorexStudio Projects\JpetStore\JpetStore\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

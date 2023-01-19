@@ -1,0 +1,18 @@
+report
+
+variable : --report = 1 par défaut
+
+donner possibilité au client de passer argument de 0 à 3. 
+
+1 plus bas
+2 plus de détails
+3 capture des images en + (inclus dans le rapport).
+
+
+devops aucun soucis
+
+autom prob (variables d'env à passer sur TM peut être une solution).
+
+
+rapport de validation ?
+extra option qui permet d'apporter nimporte quoi à la ligne de commande.

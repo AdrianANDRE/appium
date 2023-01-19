@@ -1,0 +1,41 @@
+[ats-header]
+
+author -> jgrisel
+created -> 2022-09-29 at 09:45:30
+
+[ats-variables]
+
+var -> Browser -> Chrome
+var -> propertyVar
+var -> propertyVar2
+var -> unitprice -> regexp [\$(.*), 1] -> $var(propertyVar)
+var -> Totalprice -> regexp [\$(.*), 1] -> $var(propertyVar2)
+var -> Result
+var -> Quantity -> 5
+
+[ats-actions]
+
+channel-start -> new-channel -> $var(Browser)
+goto-url -> https://petstore.octoperf.com/actions/Catalog.action
+check-property -> visibility = visible -> IMG [src = ../images/logo-topbar.gif]
+click -> A [text = Sign In]
+check-property -> visibility = visible -> P [text = Please enter your username and password.]
+keyboard -> j2ee -> INPUT [name = username]
+keyboard -> $key(BACK_SPACE)$key(BACK_SPACE)$key(BACK_SPACE)$key(BACK_SPACE)j2ee -> INPUT [type = password]
+click -> INPUT [name = signon, type = submit]
+check-property -> visibility = visible -> A [href = /actions/Account.action?signoff&eq;]
+click -> IMG [src = ../images/fish_icon.gif]
+check-property -> visibility = visible -> H2 [text = Fish]
+click -> A [href = /actions/Catalog.action?viewProduct&eq;&productId&eq;FI-SW-01]
+check-property -> visibility = visible -> H2 [text = Angelfish]
+click -> A [class = Button, href = /actions/Cart.action?addItemToCart&eq;&workingItemId&eq;EST-1, text = Add to Cart]
+check-property -> visibility = visible -> H2 [text = Shopping Cart]
+check-property -> value = 1 -> INPUT [name = EST-1, size = 3]
+keyboard -> $key(BACK_SPACE)$var(Quantity) -> INPUT [name = EST-1, size = 3]
+check-property -> value = $var(Quantity) -> INPUT [name = EST-1, size = 3]
+click -> INPUT [name = updateCartQuantities, type = submit, value = Update Cart]
+property-get -> text => propertyVar -> td [@index = 6]
+property-get -> text => propertyVar2 -> td [@index = 7]
+scripting -> $var(Totalprice) /$var(unitprice) => Result
+check-value -> $var(Result) = $var(Quantity)
+channel-close -> new-channel
