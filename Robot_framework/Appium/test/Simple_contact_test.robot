@@ -7,7 +7,7 @@ Library  AppiumLibrary
 ${ANDROID_AUTOMATION_NAME}    UIAutomator2
 ${ANDROID_APP}                ${CURDIR}/demoapp/Simple_Contacts_v4.5.0_apkpure.com.apk
 ${ANDROID_PLATFORM_NAME}      Android
-${ANDROID_PLATFORM_VERSION}   %{ANDROID_PLATFORM_VERSION=8.1}
+${ANDROID_PLATFORM_VERSION}   %{ANDROID_PLATFORM_VERSION=8.0}
 ${ALLOW_BUTTON}    id=com.android.packageinstaller:id/permission_allow_button
 ${ADD_CONTACT_BUTTON}    id=com.simplemobiletools.contacts:id/fragment_fab
 ${FIRST_NAME_FIELD}    id=com.simplemobiletools.contacts:id/contact_first_name
@@ -28,7 +28,7 @@ Should Add Contact In Simple Contact App
 
 *** Keywords ***
 Open Test Application
-  Open Application   http://192.168.0.165:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO    appPackage=com.simplemobiletools.contacts  appActivity=.activities.MainActivity t17
+  Open Application   http://192.168.0.165:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=Test Nexus 4 API 26    appPackage=com.simplemobiletools.contacts  appActivity=.activities.MainActivity t17
 
 Input Contact And Delete
     Click Element    ${ALLOW_BUTTON}
