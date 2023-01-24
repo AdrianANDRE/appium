@@ -36,7 +36,7 @@ Select An Article, Add To Cart And Remove It
 
 *** Keywords ***
 Open Test Application
-  Open Application  http://192.168.0.229:4724/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO    appPackage=com.saucelabs.mydemoapp.rn  appActivity=.MainActivity t29
+  Open Application  http://192.168.0.165:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO    appPackage=com.saucelabs.mydemoapp.rn  appActivity=.MainActivity t29
 
 Select An Article And Color
     Click Element    ${ARTICLE_BACKPACK}    

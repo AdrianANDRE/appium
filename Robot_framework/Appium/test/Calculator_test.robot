@@ -21,7 +21,7 @@ Operation with calcultor
 
 *** Keywords ***
 Open Test Application
-  Open Application  http://192.168.0.229:4724/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO   appPackage=com.android.calculator2  appActivity=.Calculator t7
+  Open Application  http://192.168.0.165:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO   appPackage=com.android.calculator2  appActivity=.Calculator t7
 
 Addition
     Click Element    ${DIGIT_8}    

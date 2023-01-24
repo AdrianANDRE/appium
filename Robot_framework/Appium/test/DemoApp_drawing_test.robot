@@ -32,7 +32,7 @@ Select Drawing Menu, Draw A Rectangle, Save The Drawing, Go To Files App And Del
 
 *** Keywords ***
 Open Test Application
-  Open Application  http://192.168.0.229:4724/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO    appPackage=com.saucelabs.mydemoapp.rn  appActivity=.MainActivity t29
+  Open Application  http://192.168.0.165:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}    deviceName=TOTO    appPackage=com.saucelabs.mydemoapp.rn  appActivity=.MainActivity t29
 Select Drawing Menu
     Click Element    ${MENU_BUTTON}     
     Wait Until Page Contains Element    ${DRAWING_ITEM}
