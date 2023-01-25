@@ -11,7 +11,7 @@ Library           AppiumLibrary
 ${REMOTE_URL}   http://192.168.0.165:4723/wd/hub
 ${platformName}    Android
 ${platformVersion}    8.0
-${deviceName}    Test Nexus 4 API 26
+${deviceName}    test aan
 ${appPackage}    com.simplemobiletools.contacts
 ${appActivity}    com.simplemobiletools.contacts.activities.MainActivity
 
