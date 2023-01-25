@@ -8,7 +8,7 @@
 Library           AppiumLibrary
 
 *** Variables ***
-${REMOTE_URL}   http://192.168.0.165:4723/wd/hub
+${REMOTE_URL}   http://localhost:4723/wd/hub
 ${platformName}    Android
 ${platformVersion}    8.0
 ${deviceName}    test aan
@@ -18,6 +18,11 @@ ${appActivity}    com.simplemobiletools.contacts.activities.MainActivity
 *** Test Cases ***
 Test case name
     Open Application    ${REMOTE_URL}   platformName=${platformName}  platformVersion=${platformVersion}  deviceName=${deviceName}  appPackage=${appPackage}  appActivity=${appActivity}
+    # id=com.android.packageinstaller:id/permission_deny_button
+    Click Element    id=com.android.packageinstaller:id/permission_deny_button
+    # id=com.android.packageinstaller:id/permission_deny_button
+    Click Element    id=com.android.packageinstaller:id/permission_deny_button
+
     # id=com.simplemobiletools.contacts:id/fragment_fab
     Click Element    id=com.simplemobiletools.contacts:id/fragment_fab
     # id=com.simplemobiletools.contacts:id/contact_first_name
