@@ -21,7 +21,7 @@ Operation with calcultor
 
 *** Keywords ***
 Open Test Application
-  Open Application  http://192.168.1.156:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}   appPackage=com.android.calculator2  appActivity=.Calculator t7  deviceName="test aan"
+  Open Application  http://192.168.60.13:4723/wd/hub  automationName=${ANDROID_AUTOMATION_NAME}    platformName=${ANDROID_PLATFORM_NAME}  platformVersion=${ANDROID_PLATFORM_VERSION}   appPackage=com.android.calculator2  appActivity=.Calculator t7  deviceName="test aan"
 
 Addition
     Click Element    ${DIGIT_8}    
